@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+
+    "@react-three/drei": "^9.117.3",
+
     "@react-three/fiber": "^8.17.10",
     "@tsparticles/engine": "^3.7.1",
     "@tsparticles/react": "^3.0.0",
