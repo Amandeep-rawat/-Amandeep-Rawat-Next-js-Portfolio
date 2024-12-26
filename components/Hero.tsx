@@ -29,7 +29,7 @@ const Hero = () => {
           <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col max-sm:gap-3 items-center justify-center'>
             <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>Dynamic web magic with Next.js</h2>
             <TextGenerateEffect className='text-center text-[30px] md:text-5xl lg:text-[6xl]' words='Crafting  solutions with a blend of creativity and code'/>
-            <p className='text-center md:tracking-wider text-sm md:text-lg lg:text-2xl mb-4'> Hi , I&apos;m <Cover className=''> Amandeep Rawat🚀 </Cover>- A full stack web developer</p>
+            <div className='text-center md:tracking-wider text-sm md:text-lg lg:text-2xl mb-4'> Hi , I&apos;m <Cover className=''> Amandeep Rawat🚀 </Cover>- A full stack web developer</div>
             <a href="#about">
                 <MagicButton title="Show my work" icon={<FaLocationArrow/>} position='right'/>
             </a>
