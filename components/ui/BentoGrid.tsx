@@ -1,13 +1,13 @@
 "use client"
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./BackgroundAnimationGradient";
-// import { Globe } from "./Globe";
+
 import Lottie from "react-lottie-player"
-// import { GlobeDemo } from './GridGlobe'
+
 import React from "react";
 import animationData from "@/data/confetti.json"
 import MagicButton from "./MagicButton";
-import { IoCopyOutline } from "react-icons/io5";
+
 import { FaCopy } from "react-icons/fa";
 
 export const BentoGrid = ({
