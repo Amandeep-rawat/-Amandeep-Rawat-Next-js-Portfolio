@@ -103,51 +103,51 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {id === 2 && 
-          // <GlobeDemo >
-          <p>glibe here </p>
+          {id === 2 &&
+            <p>❤️</p>
             }
-          {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit  absolute right-1 lg:-right-3">
-              <div className="flex flex-col gap-3  lg:gap-8">
+
+                {id === 3 && (
+                  <div className="flex gap-1 lg:gap-5 w-fit  absolute right-1 lg:-right-3">
+                    <div className="flex flex-col gap-3  lg:gap-8">
+                      {
+                        ['React js', 'Next js', , 'Framer motion'].map((item, index) => (<span key={index} className="py-2 lg:py-4 lg:px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">{item}</span>))
+                      }
+                      <span className="py-4 px-3  rounded-lg text-center bg-[#10132e]" />
+
+                    </div>
+
+                    <div className="flex flex-col gap-3 lg:gap-8">
+                      <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
+
+                      {
+                        ['fullstack dev', 'express js', ' Database'].map((item, index) => (<span key={index} className="py-2 lg:py-4 lg:px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">{item}</span>))
+                      }
+
+                    </div>
+
+                  </div>
+                )}
                 {
-                  ['React js', 'Next js', , 'Framer motion'].map((item, index) => (<span key={index} className="py-2 lg:py-4 lg:px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">{item}</span>))
+                  id === 6 && (
+                    <div className="mt-5 relative ">
+                      <div className={`absolute -bottom-5 right-0 `}>
+                        <Lottie
+                          loop={copied}
+                          play={copied}
+                          animationData={animationData}
+                          style={{ width: "100%", height: "100%" }}
+                        />
+                      </div>
+                      <MagicButton title={copied ? 'Email copied' : 'Copy my email'} icon={<FaCopy />} position="left" otherClasses={`bg-[#161a31] `} handleClick={handleCopy} />
+                    </div>
+                  )
                 }
-                <span className="py-4 px-3  rounded-lg text-center bg-[#10132e]" />
 
               </div>
 
-              <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
-
-                {
-                  ['fullstack dev', 'express js', ' Database'].map((item, index) => (<span key={index} className="py-2 lg:py-4 lg:px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">{item}</span>))
-                }
-
-              </div>
 
             </div>
-          )}
-          {
-            id === 6 && (
-              <div className="mt-5 relative ">
-                <div className={`absolute -bottom-5 right-0 `}>
-                  <Lottie
-                    loop={copied}
-                    play={copied}
-                    animationData={animationData}
-                    style={{ width: "100%", height: "100%" }}
-                  />
-                </div>
-                <MagicButton title={copied ? 'Email copied' : 'Copy my email'} icon={<FaCopy />} position="left" otherClasses={`bg-[#161a31] `} handleClick={handleCopy} />
-              </div>
-            )
-          }
-
-        </div>
-
-
-      </div>
     </div>
-  );
+        );
 };
