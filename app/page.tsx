@@ -39,13 +39,13 @@ export default function Home() {
 
     <div className="max-w-7xl w-full">
       <FloatingNav navItems={navItems}/>
-      <Hero/>
-      <Grid/>
-      <RecentProject/>
+      {/* <Hero/> */}
+      {/* <Grid/> */}
+      {/* <RecentProject/> */}
       <Clients/>
       <Experience/>
       <Approach/>
-      <Footer/>
+      {/* <Footer/> */}
     </div> 
   </main>
   );
