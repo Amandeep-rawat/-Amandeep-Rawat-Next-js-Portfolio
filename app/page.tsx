@@ -4,12 +4,12 @@ import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
-import RecentProject from "@/components/RecentProject";
-import { FloatingNav } from "@/components/ui/FloatingNav";
-import { navItems } from "@/data";
-import Image from "next/image";
+import RecentProject from "@/components/RecentProject"; 
+import { FloatingNav } from "@/components/ui/FloatingNav"; 
+import { navItems } from "@/data";  
 import Link from "next/link";
 import { FaHome } from "react-icons/fa";
+import  Image  from "next/image";
 
 export default function Home() {
   return (
@@ -19,8 +19,18 @@ export default function Home() {
             <button  className="relative inline-flex h-14  overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
       <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
       <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
-        <img  className="rounded-full w-full h-full " src="./reduced.png.jpg"   alt="" />
-      </span>
+        {/* <img  className="rounded-full w-full h-full " src="./reduced.png.jpg"   alt="" /> */}
+        <Image
+  className="rounded-full w-full h-full"
+  src="/reduced.jpg"
+  alt="Descriptive Alt Text Here" // Add a meaningful alt text for better SEO
+  width={40}
+  height={40}
+  priority={true} // Optional: Ensure this image is prioritized for loading if it's above the fold
+  quality={75} // Optional: Control image compression
+/>
+
+     </span>
     </button>
         </Link>
     <h3 className="font-bold">R<span className="text-[#be2ed6] ">W</span>T</h3>
