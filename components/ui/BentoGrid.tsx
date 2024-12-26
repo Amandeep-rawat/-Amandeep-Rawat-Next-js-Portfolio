@@ -1,9 +1,9 @@
 "use client"
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./BackgroundAnimationGradient";
-import { Globe } from "./Globe";
+// import { Globe } from "./Globe";
 import Lottie from "react-lottie-player"
-import { GlobeDemo } from './GridGlobe'
+// import { GlobeDemo } from './GridGlobe'
 import React from "react";
 import animationData from "@/data/confetti.json"
 import MagicButton from "./MagicButton";
@@ -103,7 +103,10 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {id === 2 && <GlobeDemo />}
+          {id === 2 && 
+          // <GlobeDemo >
+          <p>glibe here </p>
+            }
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit  absolute right-1 lg:-right-3">
               <div className="flex flex-col gap-3  lg:gap-8">
