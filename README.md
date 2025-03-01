@@ -2,6 +2,7 @@
 
 This is my personal portfolio website built using **Next.js**, **React**, **TypeScript**, and various modern web technologies. It showcases my skills, projects, and accomplishments, and provides an interactive user experience with animations and dynamic content.
 
+🚀 **Live Portfolio:** [Click Here](https://amandeep-rawat-next-js-portfolio.vercel.app/) 
 ## Features
 
 - **Home Section**: Welcoming page with a brief introduction and a clear navigation menu.
