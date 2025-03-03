@@ -111,7 +111,7 @@ export const BentoGridItem = ({
                   <div className="flex gap-1 lg:gap-5 w-fit  absolute right-1 lg:-right-3">
                     <div className="flex flex-col gap-3  lg:gap-8">
                       {
-                        ['React js', 'Next js', , 'Framer motion'].map((item, index) => (<span key={index} className="py-2 lg:py-4 lg:px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">{item}</span>))
+                        ['React js', 'Next js', , 'Typescript'].map((item, index) => (<span key={index} className="py-2 lg:py-4 lg:px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">{item}</span>))
                       }
                       <span className="py-4 px-3  rounded-lg text-center bg-[#10132e]" />
 
@@ -121,7 +121,7 @@ export const BentoGridItem = ({
                       <span className="py-4 px-3 rounded-lg text-center bg-[#10132e]" />
 
                       {
-                        ['fullstack dev', 'express js', ' Database'].map((item, index) => (<span key={index} className="py-2 lg:py-4 lg:px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">{item}</span>))
+                        ['fullstack dev', 'express js', 'Javascript'].map((item, index) => (<span key={index} className="py-2 lg:py-4 lg:px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132e]">{item}</span>))
                       }
 
                     </div>

@@ -71,8 +71,18 @@ export const navItems = [
   ];
   
   export const projects = [
+    
+    
     {
       id: 1,
+      title: "NextBlog : Blogging App",
+      des: " NextBlog Website Designed for User To post their articles ,comment on article,view their dashboard",
+      img: "/nextblog.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/prisma.png", "/clerk.png"],
+      link: "https://next-blog-by-aman-n-rwt.vercel.app/",
+    },
+    {
+      id: 2,
       title: "JobBase - A Full Stack Job Portal Application",
       des: "A Full Stack Job Portal Application using React.js, JavaScript, Supabase, Tailwind CSS, Clerk Authentication .",
       img: "/jobbase.png",
@@ -80,20 +90,12 @@ export const navItems = [
       link: "https://job-base.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "HyThere - Connect With Friends Chat App",
       des: "Simplify your video conferencing experience with Yoom.Seamlessly connect with colleagues and friends.",
       img: "/HyThere.png",
       iconLists: ["/re.svg", "/tail.svg", "/js.svg", "/mongo.png", "/socketio.svg"],
       link: "https://hythere-connect-with-friends.onrender.com/",
-    },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
     },
     
   ];
