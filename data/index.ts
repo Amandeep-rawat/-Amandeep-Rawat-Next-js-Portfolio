@@ -71,10 +71,17 @@ export const navItems = [
   ];
   
   export const projects = [
-    
-    
     {
       id: 1,
+      title: "PresentAI : AI Powered Presentation Builder",
+      des: " PresentAI Website Designed for User To create their presentation ,view their dashboard",
+      img: "/presentai.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/prisma.png", "/clerk.png"],
+      link: "https://present-ai-three.vercel.app/",
+    },
+    
+    {
+      id: 2,
       title: "NextBlog : Blogging App",
       des: " NextBlog Website Designed for User To post their articles ,comment on article,view their dashboard",
       img: "/nextblog.png",
@@ -82,7 +89,7 @@ export const navItems = [
       link: "https://next-blog-by-aman-n-rwt.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       title: "JobBase - A Full Stack Job Portal Application",
       des: "A Full Stack Job Portal Application using React.js, JavaScript, Supabase, Tailwind CSS, Clerk Authentication .",
       img: "/jobbase.png",
@@ -90,7 +97,7 @@ export const navItems = [
       link: "https://job-base.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       title: "HyThere - Connect With Friends Chat App",
       des: "Simplify your video conferencing experience with Yoom.Seamlessly connect with colleagues and friends.",
       img: "/HyThere.png",
